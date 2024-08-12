@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import { Fade } from "react-awesome-reveal";
 
 interface Props {}
 
@@ -8,7 +9,7 @@ function Description(props: Props) {
 
   return (
     <>
-      <section className="px-2 pt-32 bg-white md:px-0 mb-12">
+      <section className="px-2 pt-32 bg-white md:px-0 mb-32">
   <div className="container max-w-7xl px-5 mx-auto mb-12">
     <div className="text-center">
       <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-6xl md:text-center mb-24">
@@ -24,16 +25,19 @@ function Description(props: Props) {
 
     <div className="flex flex-col items-start mt-8 md:flex-row md:space-x-6">
       <div className="w-full md:w-1/2">
+        <Fade direction="up" triggerOnce>
         <Image
           src="/images/helping.png"
           alt="heroPic"
           width={800}
           height={500}
           className="rounded"
-        />
+        />s
+        </Fade>
       </div>
 
       <div className="w-full md:w-1/2 md:mt-0">
+        <Fade direction="up" triggerOnce>
         <p className=" text-lg md:text-left text-gray-500 sm:text-lg lg:text-2xl text-center pl-4 pr-12">
           Anti-ragging measures are crucial for any educational institution&rsquo;s
           website as they help create a safe and inclusive environment for
@@ -47,7 +51,9 @@ function Description(props: Props) {
           guidelines and resources for victims to seek help, contributing to a
           safer campus community.
         </p>
+        </Fade>
 
+        <Fade direction="up" triggerOnce>
         <div className="flex flex-col justify-center mt-6 md:flex-row md:space-x-4">
           <a
             href="#_"
@@ -78,6 +84,7 @@ function Description(props: Props) {
             Learn Your Rights
           </a>
         </div>
+        </Fade>
       </div>
     </div>
   </div>
