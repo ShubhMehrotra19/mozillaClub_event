@@ -6,7 +6,7 @@ function Laws(props: Props) {
   const {} = props;
 
   return (
-    <section className="py-20 bg-white">
+    <section className="mb-32 mt-12">
       <div className="container max-w-6xl mx-auto">
         <h2 className="text-4xl font-bold tracking-tight text-center">
           Punishment for Ragging

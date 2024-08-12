@@ -9,6 +9,8 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Footer from './footer/footer'
 import Video from './video/video'
 import Laws from './laws/laws'
+import { TestimonialOne } from './testimonial/testimonial'
+import { Fade } from 'react-awesome-reveal'
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -45,6 +47,9 @@ function LandingPage(props: Props) {
         <Description />
         <Video />
         <Laws />
+        <Fade direction='up' triggerOnce>
+        <TestimonialOne />
+        </Fade>
         <Footer />
         </>
     )

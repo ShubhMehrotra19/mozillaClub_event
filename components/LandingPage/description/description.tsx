@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { Fade } from "react-awesome-reveal";
+import Link from "next/link";
 
 interface Props {}
 
@@ -44,8 +45,8 @@ function Description(props: Props) {
 
         <Fade direction="up" triggerOnce>
         <div className="flex flex-col justify-center mt-6 md:flex-row md:space-x-4">
-          <a
-            href="#_"
+          <Link
+            href="/contact"
             className="flex items-center w-full px-6 py-3 mb-3 text-lg text-white bg-blue-500 rounded-md md:mb-0 hover:bg-blue-700 md:w-auto transition-all duration-300 cursor-pointer ease-in-out hover:scale-[102%] active:scale-95"
             data-primary="purple-500"
             data-rounded="rounded-md"
@@ -64,14 +65,14 @@ function Description(props: Props) {
               <line x1="5" y1="12" x2="19" y2="12"></line>
               <polyline points="12 5 19 12 12 19"></polyline>
             </svg>
-          </a>
-          <a
-            href="#_"
+          </Link>
+          <Link
+            href="https://antiragging.in/"
             className="flex items-center px-6 py-3 text-gray-500 bg-gray-100 rounded-md hover:bg-gray-200 hover:text-gray-600 transition-all duration-300 cursor-pointer ease-in-out hover:scale-[102%] active:scale-95"
             data-rounded="rounded-md"
           >
             Learn Your Rights
-          </a>
+          </Link>
         </div>
         </Fade>
       </div>
