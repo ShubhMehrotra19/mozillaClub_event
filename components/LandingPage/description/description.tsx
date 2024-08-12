@@ -34,7 +34,7 @@ function Description(props: Props) {
       </div>
 
       <div className="w-full md:w-1/2 md:mt-0">
-        <p className=" text-lg text-left text-gray-500 sm:text-lg lg:text-2xl md:text-left pl-4 pr-12">
+        <p className=" text-lg md:text-left text-gray-500 sm:text-lg lg:text-2xl text-center pl-4 pr-12">
           Anti-ragging measures are crucial for any educational institution&rsquo;s
           website as they help create a safe and inclusive environment for
           students. Ragging, which involves bullying or harassment, can have
