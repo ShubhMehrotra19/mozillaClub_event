@@ -1,42 +1,22 @@
-import React, { useState } from "react";
+import React from "react";
 import { Fade } from "react-awesome-reveal";
-import YouTube from "react-youtube";
-import Image from "next/image";
 
 interface Props {}
 
 function Video(props: Props) {
   const {} = props;
-  const [playVideo, setPlayVideo] = useState(false);
-
-  const opts = {
-    height: '600px',
-    width: '100%',
-    playerVars: {
-      autoplay: 1,
-    },
-  };
-
-  function toggleVideo() {
-    setPlayVideo(!playVideo);
-  }
 
   return (
-    <section className="max-w-7xl mx-auto mb-12 flex flex-col items-center">
-      <p className="font-extrabold font-anton md:text-6xl text-xl mb-12 text-center">Watch Video</p>
+    <section className="max-w-7xl mx-auto mb-12 flex flex-col">
+        <p className="font-extrabold font-anton md:text-6xl text-xl mb-12 text-center">Watch Video</p>
       <Fade direction="up" triggerOnce>
-        <div className="videos rounded-md bg-contain cursor-pointer" onClick={toggleVideo}>
-          {playVideo ? (
-            <YouTube videoId="gSCYsCzOoMs" opts={opts} />
-          ) : (
-            <Image 
-              src="images/ragging.png"
-              layout="fill" 
-              alt="" 
-              className="rounded-md hover:scale-[102%] ease-in-out active:scale-95 transition-all duration-300"
-            />
-          )}
-        </div>
+        <iframe
+            width="100%"
+            height="600"
+            className="rounded-md hover:scale-[102%] cursor-pointer ease-in-out active:scale-95 transition-all duration-300"
+            src="https://www.youtube.com/embed/gSCYsCzOoMs?si=19xijhuXnVnRDetm"
+            allow="gyroscope; accelerometer; encrypted-media; picture-in-picture"
+        ></iframe>
       </Fade>
     </section>
   );
