@@ -11,17 +11,6 @@ function Description(props: Props) {
     <>
       <section className="px-2 pt-32 bg-white md:px-0 mb-32">
   <div className="container max-w-7xl px-5 mx-auto mb-12">
-    <div className="text-center">
-      <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-6xl md:text-center mb-24">
-        <span className="block">
-          Importance of {" "}
-          <span className="block mt-1 text-blue-700 lg:inline lg:mt-0">
-             Anti-Ragging
-          </span>
-          ✊🏽
-        </span>
-      </h1>
-    </div>
 
     <div className="flex flex-col items-start mt-8 md:flex-row md:space-x-6">
       <div className="w-full md:w-1/2">

@@ -30,7 +30,7 @@ function Hero(props: Props) {
           alt="heroPic"
           layout="fill"
           objectFit="cover"
-          className="relative drop-shadow-md"
+          className="relative drop-shadow-"
         />
         <div className="px-10 py-24 mx-auto max-w-7xl absolute transform">
           <Fade direction="up" delay={0.5} triggerOnce>
