@@ -1,4 +1,5 @@
 import React from "react";
+import { Fade } from "react-awesome-reveal";
 
 interface Props {}
 
@@ -16,6 +17,7 @@ function Laws(props: Props) {
           Ragging
         </p>
         <div className="grid grid-cols-4 gap-8 mt-10 sm:grid-cols-8 lg:grid-cols-12 sm:px-8 xl:px-0">
+          <Fade direction="up" triggerOnce>
           <div
             className="relative flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 overflow-hidden bg-gray-100 sm:rounded-xl"
             data-rounded="rounded-xl"
@@ -33,7 +35,9 @@ function Laws(props: Props) {
               Suspension, expulsion, or rustication from the institution
             </p>
           </div>
+          </Fade>
 
+          <Fade direction="up" triggerOnce>
           <div
             className="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl"
             data-rounded="rounded-xl"
@@ -45,7 +49,9 @@ function Laws(props: Props) {
               Cancellation of admission
             </p>
           </div>
+          </Fade>
 
+          <Fade direction="up" triggerOnce>
           <div
             className="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl"
             data-rounded="rounded-xl"
@@ -63,7 +69,9 @@ function Laws(props: Props) {
               Withholding scholarships or other benefits
             </p>
           </div>
+          </Fade>
 
+          <Fade direction="up" triggerOnce>
           <div
             className="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl"
             data-rounded="rounded-xl"
@@ -81,8 +89,10 @@ function Laws(props: Props) {
               Debarring from representation in events
             </p>
           </div>
+          </Fade>
 
-          <div
+          <Fade direction="up" triggerOnce>
+            <div
             className="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl"
             data-rounded="rounded-xl"
             data-rounded-max="rounded-full"
@@ -100,6 +110,9 @@ function Laws(props: Props) {
             </p>
           </div>
 
+          </Fade>
+
+          <Fade direction="up" triggerOnce>
           <div
             className="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl"
             data-rounded="rounded-xl"
@@ -117,6 +130,7 @@ function Laws(props: Props) {
               Juveliene Jail time as per the degree of offence
             </p>
           </div>
+          </Fade>
         </div>
       </div>
     </section>
