@@ -33,7 +33,7 @@ function Video(props: Props) {
               src="/images/ragging.png" 
               alt=""
               height={100}
-              width={1200}
+              width={700}
               className="rounded-md hover:scale-[102%] ease-in-out active:scale-95 transition-all duration-300"
             />
           )}

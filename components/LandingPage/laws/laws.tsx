@@ -28,11 +28,9 @@ function Laws(props: Props) {
             >
               1st
             </div>
-            <h4 className="text-xl font-medium text-gray-700">
-              Certifications
-            </h4>
+            <h4 className="text-xl font-medium text-gray-700">Punishment 1</h4>
             <p className="text-base text-center text-gray-500">
-            Suspension, expulsion, or rustication from the institution
+              Suspension, expulsion, or rustication from the institution
             </p>
           </div>
 
@@ -41,14 +39,10 @@ function Laws(props: Props) {
             data-rounded="rounded-xl"
             data-rounded-max="rounded-full"
           >
-            <div
-              className="p-3 text-white bg-blue-500 rounded-full"
-            >
-            2nd
-            </div>
-            <h4 className="text-xl font-medium text-gray-700">Notifications</h4>
+            <div className="p-3 text-white bg-blue-500 rounded-full">2nd</div>
+            <h4 className="text-xl font-medium text-gray-700">Punishment 2</h4>
             <p className="text-base text-center text-gray-500">
-            Cancellation of admission
+              Cancellation of admission
             </p>
           </div>
 
@@ -64,9 +58,9 @@ function Laws(props: Props) {
             >
               3rd
             </div>
-            <h4 className="text-xl font-medium text-gray-700">Bundles</h4>
+            <h4 className="text-xl font-medium text-gray-700">Punishment 3</h4>
             <p className="text-base text-center text-gray-500">
-            Withholding scholarships or other benefits
+              Withholding scholarships or other benefits
             </p>
           </div>
 
@@ -82,11 +76,9 @@ function Laws(props: Props) {
             >
               4th
             </div>
-            <h4 className="text-xl font-medium text-gray-700">
-              Developer Tools
-            </h4>
+            <h4 className="text-xl font-medium text-gray-700">Punishment 4</h4>
             <p className="text-base text-center text-gray-500">
-            Debarring from representation in events
+              Debarring from representation in events
             </p>
           </div>
 
@@ -102,11 +94,9 @@ function Laws(props: Props) {
             >
               5th
             </div>
-            <h4 className="text-xl font-medium text-gray-700">
-              Building Blocks
-            </h4>
+            <h4 className="text-xl font-medium text-gray-700">Punishment 5</h4>
             <p className="text-base text-center text-gray-500">
-            Criminal prosecution under the Indian Penal Code
+              Criminal prosecution under the Indian Penal Code
             </p>
           </div>
 
@@ -122,7 +112,7 @@ function Laws(props: Props) {
             >
               6th
             </div>
-            <h4 className="text-xl font-medium text-gray-700">Coupons</h4>
+            <h4 className="text-xl font-medium text-gray-700">Punishment 6</h4>
             <p className="text-base text-center text-gray-500">
               Juveliene Jail time as per the degree of offence
             </p>
