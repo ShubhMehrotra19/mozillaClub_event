@@ -6,6 +6,7 @@ import { useEffect } from 'react'
 import Lenis from 'lenis'
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import Footer from './footer/footer'
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -40,6 +41,7 @@ function LandingPage(props: Props) {
         <>
         <Hero />
         <Description />
+        <Footer />
         </>
     )
 }
